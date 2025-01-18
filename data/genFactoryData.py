@@ -161,7 +161,8 @@ def genQuizDataList() -> None:
             des.write("{")
 
             id += 1
-            genLabel(id, class_id + 6, CHAPTER_TITLE[class_id][chapter_id])
+            # genLabel(id, class_id + 6, CHAPTER_TITLE[class_id][chapter_id])
+            genLabel(id, class_id + 6, f"Chương {chapter_id + 1}")
 
             des.write("data: {")
             genMultipleChoiceData("Multiple_Choice", class_id, chapter_id)
@@ -193,7 +194,8 @@ def genFillInTheBlankList() -> None:
             des.write("{")
 
             id += 1
-            genLabel(id, class_id + 6, CHAPTER_TITLE[class_id][chapter_id])
+            # genLabel(id, class_id + 6, CHAPTER_TITLE[class_id][chapter_id])
+            genLabel(id, class_id + 6, f"Chương {chapter_id + 1}")
             genFillInTheBlankData("Fill_in_the_blank", class_id, chapter_id)
             des.write("},")
 
@@ -204,9 +206,34 @@ def genFillInTheBlankList() -> None:
 def genFlashCardList() -> None:
     return
 
+def genChapterTitleList() -> None:
+    des.write("export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [")
+
+    id = 0
+    for class_id in range(4):
+        for chapter_id in range(N_CHAPTER[class_id]):
+            des.write("{")
+
+            id += 1
+            des.write(f"id: {id},")
+            des.write(f"grade: {class_id + 6},")
+            des.write(f"chapterTitle: '{CHAPTER_TITLE[class_id][chapter_id]}',")
+            des.write(f"quizID: {id},") # the same question id have the same topic
+            des.write(f"fillInTheBlankID: {id},")
+            des.write(f"quizStatus: [0, quizDataList.filter(item => item.label.id == {id})[0].data.rightAns.length],")
+            des.write(f"fillInTheBlankStatus: [0, fillInTheBlankList.filter(item => item.label.id == {id})[0].ans.length],")
+            des.write(f"type: [0, 2],") # need to change by hand later
+            des.write("status: 0")
+
+            des.write("},")
+    
+    des.write("];")
+    return
+
 
 genDef()
 genQuizDataList()
 genFillInTheBlankList()
+genChapterTitleList()
 
 # deno fmt factoryData.tsx
