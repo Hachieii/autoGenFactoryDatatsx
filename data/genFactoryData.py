@@ -1,4 +1,4 @@
-des = open("./factoryData.ts", "w")
+des = open("./factoryData.tsx", "w")
 
 def genDef() -> None:
     des.write(
