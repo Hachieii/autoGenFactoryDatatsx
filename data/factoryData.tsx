@@ -55,7 +55,7 @@ export const CARD_CATE_TYPE_CODE: FORMATDATA.CardCateTypeCodeFormat[] = [
   },
 ];
 export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
-  label: { id: 1, grade: 6, chapterTitle: "Chương 1" },
+  label: { id: 1, grade: 6, type: [0], chapterTitle: "1" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_6/Chuong_1/ques/1.png`),
@@ -85,7 +85,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["D", "D", "B"],
   },
 }, {
-  label: { id: 2, grade: 6, chapterTitle: "Chương 2" },
+  label: { id: 2, grade: 6, type: [0], chapterTitle: "2" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_6/Chuong_2/ques/1.png`),
@@ -115,7 +115,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["C", "D", "A"],
   },
 }, {
-  label: { id: 3, grade: 6, chapterTitle: "Chương 3" },
+  label: { id: 3, grade: 6, type: [0], chapterTitle: "3" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_6/Chuong_3/ques/1.png`),
@@ -145,7 +145,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["D", "A", "C"],
   },
 }, {
-  label: { id: 4, grade: 6, chapterTitle: "Chương 4" },
+  label: { id: 4, grade: 6, type: [1], chapterTitle: "4" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_6/Chuong_4/ques/1.png`),
@@ -175,7 +175,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["D", "A", "C"],
   },
 }, {
-  label: { id: 5, grade: 6, chapterTitle: "Chương 5" },
+  label: { id: 5, grade: 6, type: [1], chapterTitle: "5" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_6/Chuong_5/ques/1.png`),
@@ -205,7 +205,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["D", "C", "D"],
   },
 }, {
-  label: { id: 6, grade: 6, chapterTitle: "Chương 6" },
+  label: { id: 6, grade: 6, type: [0], chapterTitle: "6" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_6/Chuong_6/ques/1.png`),
@@ -235,7 +235,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["B", "A", "D"],
   },
 }, {
-  label: { id: 7, grade: 6, chapterTitle: "Chương 7" },
+  label: { id: 7, grade: 6, type: [0], chapterTitle: "7" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_6/Chuong_7/ques/1.png`),
@@ -265,7 +265,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["C", "B", "C"],
   },
 }, {
-  label: { id: 8, grade: 6, chapterTitle: "Chương 8" },
+  label: { id: 8, grade: 6, type: [1], chapterTitle: "8" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_6/Chuong_8/ques/1.png`),
@@ -295,7 +295,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["A", "B", "A"],
   },
 }, {
-  label: { id: 9, grade: 7, chapterTitle: "Chương 1" },
+  label: { id: 9, grade: 7, type: [0], chapterTitle: "1" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_7/Chuong_1/ques/1.png`),
@@ -325,7 +325,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["D", "A", "B"],
   },
 }, {
-  label: { id: 10, grade: 7, chapterTitle: "Chương 2" },
+  label: { id: 10, grade: 7, type: [0], chapterTitle: "2" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_7/Chuong_2/ques/1.png`),
@@ -355,7 +355,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["C", "B", "C"],
   },
 }, {
-  label: { id: 11, grade: 7, chapterTitle: "Chương 3" },
+  label: { id: 11, grade: 7, type: [1], chapterTitle: "3" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_7/Chuong_3/ques/1.png`),
@@ -385,7 +385,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["D", "D", "D"],
   },
 }, {
-  label: { id: 12, grade: 7, chapterTitle: "Chương 4" },
+  label: { id: 12, grade: 7, type: [1], chapterTitle: "4" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_7/Chuong_4/ques/1.png`),
@@ -415,7 +415,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["D", "D", "D"],
   },
 }, {
-  label: { id: 13, grade: 7, chapterTitle: "Chương 5" },
+  label: { id: 13, grade: 7, type: [0], chapterTitle: "5" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_7/Chuong_5/ques/1.png`),
@@ -445,7 +445,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["B", "D", "A"],
   },
 }, {
-  label: { id: 14, grade: 7, chapterTitle: "Chương 6" },
+  label: { id: 14, grade: 7, type: [0], chapterTitle: "6" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_7/Chuong_6/ques/1.png`),
@@ -475,7 +475,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["A", "C", "A"],
   },
 }, {
-  label: { id: 15, grade: 7, chapterTitle: "Chương 7" },
+  label: { id: 15, grade: 7, type: [0], chapterTitle: "7" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_7/Chuong_7/ques/1.png`),
@@ -505,7 +505,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["A", "C", "B"],
   },
 }, {
-  label: { id: 16, grade: 7, chapterTitle: "Chương 8" },
+  label: { id: 16, grade: 7, type: [0], chapterTitle: "8" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_7/Chuong_8/ques/1.png`),
@@ -535,7 +535,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["C", "B", "B"],
   },
 }, {
-  label: { id: 17, grade: 7, chapterTitle: "Chương 9" },
+  label: { id: 17, grade: 7, type: [1], chapterTitle: "9" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_7/Chuong_9/ques/1.png`),
@@ -565,7 +565,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["A", "A", "C"],
   },
 }, {
-  label: { id: 18, grade: 7, chapterTitle: "Chương 10" },
+  label: { id: 18, grade: 7, type: [1], chapterTitle: "10" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_7/Chuong_10/ques/1.png`),
@@ -595,7 +595,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["D", "C", "B"],
   },
 }, {
-  label: { id: 19, grade: 8, chapterTitle: "Chương 1" },
+  label: { id: 19, grade: 8, type: [0], chapterTitle: "1" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_8/Chuong_1/ques/1.png`),
@@ -625,7 +625,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["B", "A", "C"],
   },
 }, {
-  label: { id: 20, grade: 8, chapterTitle: "Chương 2" },
+  label: { id: 20, grade: 8, type: [0], chapterTitle: "2" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_8/Chuong_2/ques/1.png`),
@@ -655,7 +655,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["A", "C", "B"],
   },
 }, {
-  label: { id: 21, grade: 8, chapterTitle: "Chương 3" },
+  label: { id: 21, grade: 8, type: [1], chapterTitle: "3" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_8/Chuong_3/ques/1.png`),
@@ -685,7 +685,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["B", "D", "A"],
   },
 }, {
-  label: { id: 22, grade: 8, chapterTitle: "Chương 4" },
+  label: { id: 22, grade: 8, type: [1], chapterTitle: "4" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_8/Chuong_4/ques/1.png`),
@@ -715,7 +715,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["B", "D", "A"],
   },
 }, {
-  label: { id: 23, grade: 8, chapterTitle: "Chương 5" },
+  label: { id: 23, grade: 8, type: [0], chapterTitle: "5" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_8/Chuong_5/ques/1.png`),
@@ -745,7 +745,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["C", "B", "D"],
   },
 }, {
-  label: { id: 24, grade: 8, chapterTitle: "Chương 6" },
+  label: { id: 24, grade: 8, type: [0], chapterTitle: "6" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_8/Chuong_6/ques/1.png`),
@@ -775,7 +775,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["A", "D", "B"],
   },
 }, {
-  label: { id: 25, grade: 8, chapterTitle: "Chương 7" },
+  label: { id: 25, grade: 8, type: [0], chapterTitle: "7" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_8/Chuong_7/ques/1.png`),
@@ -805,7 +805,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["A", "D", "C"],
   },
 }, {
-  label: { id: 26, grade: 8, chapterTitle: "Chương 8" },
+  label: { id: 26, grade: 8, type: [0], chapterTitle: "8" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_8/Chuong_8/ques/1.png`),
@@ -835,7 +835,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["A", "C", "B", ""],
   },
 }, {
-  label: { id: 27, grade: 8, chapterTitle: "Chương 9" },
+  label: { id: 27, grade: 8, type: [1], chapterTitle: "9" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_8/Chuong_9/ques/1.png`),
@@ -865,7 +865,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["C", "A", "B"],
   },
 }, {
-  label: { id: 28, grade: 8, chapterTitle: "Chương 10" },
+  label: { id: 28, grade: 8, type: [1], chapterTitle: "10" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_8/Chuong_10/ques/1.png`),
@@ -895,7 +895,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["C", "A", "D"],
   },
 }, {
-  label: { id: 29, grade: 9, chapterTitle: "Chương 1" },
+  label: { id: 29, grade: 9, type: [0], chapterTitle: "1" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_9/Chuong_1/ques/1.png`),
@@ -925,7 +925,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["C", "A", "D"],
   },
 }, {
-  label: { id: 30, grade: 9, chapterTitle: "Chương 2" },
+  label: { id: 30, grade: 9, type: [0], chapterTitle: "2" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_9/Chuong_2/ques/1.png`),
@@ -955,7 +955,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["B", "D", "A"],
   },
 }, {
-  label: { id: 31, grade: 9, chapterTitle: "Chương 3" },
+  label: { id: 31, grade: 9, type: [0], chapterTitle: "3" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_9/Chuong_3/ques/1.png`),
@@ -985,7 +985,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["B", "B", "C"],
   },
 }, {
-  label: { id: 32, grade: 9, chapterTitle: "Chương 4" },
+  label: { id: 32, grade: 9, type: [1], chapterTitle: "4" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_9/Chuong_4/ques/1.png`),
@@ -1015,7 +1015,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["A", "A", "A"],
   },
 }, {
-  label: { id: 33, grade: 9, chapterTitle: "Chương 5" },
+  label: { id: 33, grade: 9, type: [1], chapterTitle: "5" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_9/Chuong_5/ques/1.png`),
@@ -1045,7 +1045,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["C", "A", "D"],
   },
 }, {
-  label: { id: 34, grade: 9, chapterTitle: "Chương 6" },
+  label: { id: 34, grade: 9, type: [0], chapterTitle: "6" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_9/Chuong_6/ques/1.png`),
@@ -1075,7 +1075,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["D", "D", "A"],
   },
 }, {
-  label: { id: 35, grade: 9, chapterTitle: "Chương 7" },
+  label: { id: 35, grade: 9, type: [0], chapterTitle: "7" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_9/Chuong_7/ques/1.png`),
@@ -1105,7 +1105,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["B", "B", "A"],
   },
 }, {
-  label: { id: 36, grade: 9, chapterTitle: "Chương 8" },
+  label: { id: 36, grade: 9, type: [0], chapterTitle: "8" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_9/Chuong_8/ques/1.png`),
@@ -1135,7 +1135,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["D", "C", "C"],
   },
 }, {
-  label: { id: 37, grade: 9, chapterTitle: "Chương 9" },
+  label: { id: 37, grade: 9, type: [1], chapterTitle: "9" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_9/Chuong_9/ques/1.png`),
@@ -1165,7 +1165,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     rightAns: ["D", "C", "B"],
   },
 }, {
-  label: { id: 38, grade: 9, chapterTitle: "Chương 10" },
+  label: { id: 38, grade: 9, type: [1], chapterTitle: "10" },
   data: {
     ques: [
       require(`../assets/photos/Multiple_Choice/Lop_9/Chuong_10/ques/1.png`),
@@ -1196,7 +1196,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
   },
 }];
 export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
-  label: { id: 1, grade: 6, chapterTitle: "Chương 1" },
+  label: { id: 1, grade: 6, type: [0], chapterTitle: "1" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_1/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_1/ques/2.png`),
@@ -1204,7 +1204,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["3", "XXIX", "trăm"],
 }, {
-  label: { id: 2, grade: 6, chapterTitle: "Chương 2" },
+  label: { id: 2, grade: 6, type: [0], chapterTitle: "2" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_2/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_2/ques/2.png`),
@@ -1212,7 +1212,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["3", "nhỏ nhất", "2"],
 }, {
-  label: { id: 3, grade: 6, chapterTitle: "Chương 3" },
+  label: { id: 3, grade: 6, type: [0], chapterTitle: "3" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_3/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_3/ques/2.png`),
@@ -1220,7 +1220,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["-99", "35", "nguyên dương"],
 }, {
-  label: { id: 4, grade: 6, chapterTitle: "Chương 4" },
+  label: { id: 4, grade: 6, type: [1], chapterTitle: "4" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_4/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_4/ques/2.png`),
@@ -1228,7 +1228,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["120", "10", "30"],
 }, {
-  label: { id: 5, grade: 6, chapterTitle: "Chương 5" },
+  label: { id: 5, grade: 6, type: [1], chapterTitle: "5" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_5/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_5/ques/2.png`),
@@ -1236,7 +1236,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["5", "2", "6"],
 }, {
-  label: { id: 6, grade: 6, chapterTitle: "Chương 6" },
+  label: { id: 6, grade: 6, type: [0], chapterTitle: "6" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_6/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_6/ques/2.png`),
@@ -1244,7 +1244,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["36", "-0,2", "39"],
 }, {
-  label: { id: 7, grade: 6, chapterTitle: "Chương 7" },
+  label: { id: 7, grade: 6, type: [0], chapterTitle: "7" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_7/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_7/ques/2.png`),
@@ -1252,7 +1252,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["15090000", "75", "20"],
 }, {
-  label: { id: 8, grade: 6, chapterTitle: "Chương 8" },
+  label: { id: 8, grade: 6, type: [1], chapterTitle: "8" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_8/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_6/Chuong_8/ques/2.png`),
@@ -1260,7 +1260,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["5", "7", "10"],
 }, {
-  label: { id: 9, grade: 7, chapterTitle: "Chương 1" },
+  label: { id: 9, grade: 7, type: [0], chapterTitle: "1" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_1/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_1/ques/2.png`),
@@ -1268,7 +1268,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["1", "256", "43,75"],
 }, {
-  label: { id: 10, grade: 7, chapterTitle: "Chương 2" },
+  label: { id: 10, grade: 7, type: [0], chapterTitle: "2" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_2/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_2/ques/2.png`),
@@ -1276,7 +1276,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["32", "-1,4", "3,(6)"],
 }, {
-  label: { id: 11, grade: 7, chapterTitle: "Chương 3" },
+  label: { id: 11, grade: 7, type: [1], chapterTitle: "3" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_3/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_3/ques/2.png`),
@@ -1284,7 +1284,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["152", "2", "50"],
 }, {
-  label: { id: 12, grade: 7, chapterTitle: "Chương 4" },
+  label: { id: 12, grade: 7, type: [1], chapterTitle: "4" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_4/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_4/ques/2.png`),
@@ -1292,7 +1292,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["360", "75", "4"],
 }, {
-  label: { id: 13, grade: 7, chapterTitle: "Chương 5" },
+  label: { id: 13, grade: 7, type: [0], chapterTitle: "5" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_5/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_5/ques/2.png`),
@@ -1300,7 +1300,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["7", "17", "2,5"],
 }, {
-  label: { id: 14, grade: 7, chapterTitle: "Chương 6" },
+  label: { id: 14, grade: 7, type: [0], chapterTitle: "6" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_6/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_6/ques/2.png`),
@@ -1308,7 +1308,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["4", "36", "12"],
 }, {
-  label: { id: 15, grade: 7, chapterTitle: "Chương 7" },
+  label: { id: 15, grade: 7, type: [0], chapterTitle: "7" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_7/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_7/ques/2.png`),
@@ -1316,7 +1316,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["54000", "6", "2"],
 }, {
-  label: { id: 16, grade: 7, chapterTitle: "Chương 8" },
+  label: { id: 16, grade: 7, type: [0], chapterTitle: "8" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_8/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_8/ques/2.png`),
@@ -1324,7 +1324,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["lớn hơn", "1", "5"],
 }, {
-  label: { id: 17, grade: 7, chapterTitle: "Chương 9" },
+  label: { id: 17, grade: 7, type: [1], chapterTitle: "9" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_9/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_9/ques/2.png`),
@@ -1332,7 +1332,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["nhỏ hơn", "ba đỉnh", "4"],
 }, {
-  label: { id: 18, grade: 7, chapterTitle: "Chương 10" },
+  label: { id: 18, grade: 7, type: [1], chapterTitle: "10" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_10/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_7/Chuong_10/ques/2.png`),
@@ -1340,7 +1340,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["chữ nhật", "15", "28"],
 }, {
-  label: { id: 19, grade: 8, chapterTitle: "Chương 1" },
+  label: { id: 19, grade: 8, type: [0], chapterTitle: "1" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_1/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_1/ques/2.png`),
@@ -1348,7 +1348,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["384", "999", "1"],
 }, {
-  label: { id: 20, grade: 8, chapterTitle: "Chương 2" },
+  label: { id: 20, grade: 8, type: [0], chapterTitle: "2" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_2/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_2/ques/2.png`),
@@ -1356,7 +1356,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["-9", "0", "8x"],
 }, {
-  label: { id: 21, grade: 8, chapterTitle: "Chương 3" },
+  label: { id: 21, grade: 8, type: [1], chapterTitle: "3" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_3/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_3/ques/2.png`),
@@ -1364,7 +1364,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["167", "220", "210"],
 }, {
-  label: { id: 22, grade: 8, chapterTitle: "Chương 4" },
+  label: { id: 22, grade: 8, type: [1], chapterTitle: "4" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_4/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_4/ques/2.png`),
@@ -1372,7 +1372,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["3", "5", "16"],
 }, {
-  label: { id: 23, grade: 8, chapterTitle: "Chương 5" },
+  label: { id: 23, grade: 8, type: [0], chapterTitle: "5" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_5/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_5/ques/2.png`),
@@ -1380,7 +1380,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["hình quạt tròn", "đoạn thẳng", "cột kép"],
 }, {
-  label: { id: 24, grade: 8, chapterTitle: "Chương 6" },
+  label: { id: 24, grade: 8, type: [0], chapterTitle: "6" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_6/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_6/ques/2.png`),
@@ -1388,7 +1388,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["8", "x - y", "6"],
 }, {
-  label: { id: 25, grade: 8, chapterTitle: "Chương 7" },
+  label: { id: 25, grade: 8, type: [0], chapterTitle: "7" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_7/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_7/ques/2.png`),
@@ -1396,7 +1396,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["-1", "1", "1"],
 }, {
-  label: { id: 26, grade: 8, chapterTitle: "Chương 8" },
+  label: { id: 26, grade: 8, type: [0], chapterTitle: "8" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_8/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_8/ques/2.png`),
@@ -1404,7 +1404,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["2", "96", "0,15"],
 }, {
-  label: { id: 27, grade: 8, chapterTitle: "Chương 9" },
+  label: { id: 27, grade: 8, type: [1], chapterTitle: "9" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_9/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_9/ques/2.png`),
@@ -1412,7 +1412,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["12", "12", "2"],
 }, {
-  label: { id: 28, grade: 8, chapterTitle: "Chương 10" },
+  label: { id: 28, grade: 8, type: [1], chapterTitle: "10" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_10/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_8/Chuong_10/ques/2.png`),
@@ -1420,7 +1420,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["60", "4", "5"],
 }, {
-  label: { id: 29, grade: 9, chapterTitle: "Chương 1" },
+  label: { id: 29, grade: 9, type: [0], chapterTitle: "1" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_1/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_1/ques/2.png`),
@@ -1428,7 +1428,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["7", "7", "-1"],
 }, {
-  label: { id: 30, grade: 9, chapterTitle: "Chương 2" },
+  label: { id: 30, grade: 9, type: [0], chapterTitle: "2" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_2/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_2/ques/2.png`),
@@ -1436,7 +1436,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["2", "2", "1"],
 }, {
-  label: { id: 31, grade: 9, chapterTitle: "Chương 3" },
+  label: { id: 31, grade: 9, type: [0], chapterTitle: "3" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_3/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_3/ques/2.png`),
@@ -1444,7 +1444,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["18", "60,4", "9"],
 }, {
-  label: { id: 32, grade: 9, chapterTitle: "Chương 4" },
+  label: { id: 32, grade: 9, type: [1], chapterTitle: "4" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_4/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_4/ques/2.png`),
@@ -1452,7 +1452,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["10,4", "7,71", "3,97"],
 }, {
-  label: { id: 33, grade: 9, chapterTitle: "Chương 5" },
+  label: { id: 33, grade: 9, type: [1], chapterTitle: "5" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_5/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_5/ques/2.png`),
@@ -1460,7 +1460,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["lớn nhất", "tiếp xúc trong", "8,5"],
 }, {
-  label: { id: 34, grade: 9, chapterTitle: "Chương 6" },
+  label: { id: 34, grade: 9, type: [0], chapterTitle: "6" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_6/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_6/ques/2.png`),
@@ -1468,7 +1468,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["16", "1", "5"],
 }, {
-  label: { id: 35, grade: 9, chapterTitle: "Chương 7" },
+  label: { id: 35, grade: 9, type: [0], chapterTitle: "7" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_7/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_7/ques/2.png`),
@@ -1476,7 +1476,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["biểu đồ tần số", "72", "cột"],
 }, {
-  label: { id: 36, grade: 9, chapterTitle: "Chương 8" },
+  label: { id: 36, grade: 9, type: [0], chapterTitle: "8" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_8/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_8/ques/2.png`),
@@ -1484,7 +1484,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["18", "105", "20"],
 }, {
-  label: { id: 37, grade: 9, chapterTitle: "Chương 9" },
+  label: { id: 37, grade: 9, type: [1], chapterTitle: "9" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_9/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_9/ques/2.png`),
@@ -1492,7 +1492,7 @@ export const fillInTheBlankList: FORMATDATA.FillInTheBlankFormat[] = [{
   ],
   ans: ["d", "1", "120"],
 }, {
-  label: { id: 38, grade: 9, chapterTitle: "Chương 10" },
+  label: { id: 38, grade: 9, type: [1], chapterTitle: "10" },
   ques: [
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_10/ques/1.png`),
     require(`../assets/photos/Fill_in_the_blank/Lop_9/Chuong_10/ques/2.png`),
@@ -1562,7 +1562,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     0,
     fillInTheBlankList.filter((item) => item.label.id == 4)[0].ans.length,
   ],
-  type: [0, 2],
+  type: [1, 2],
   status: 0,
 }, {
   id: 5,
@@ -1578,7 +1578,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     0,
     fillInTheBlankList.filter((item) => item.label.id == 5)[0].ans.length,
   ],
-  type: [0, 2],
+  type: [1, 2],
   status: 0,
 }, {
   id: 6,
@@ -1626,7 +1626,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     0,
     fillInTheBlankList.filter((item) => item.label.id == 8)[0].ans.length,
   ],
-  type: [0, 2],
+  type: [1, 2],
   status: 0,
 }, {
   id: 9,
@@ -1674,7 +1674,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     0,
     fillInTheBlankList.filter((item) => item.label.id == 11)[0].ans.length,
   ],
-  type: [0, 2],
+  type: [1, 2],
   status: 0,
 }, {
   id: 12,
@@ -1690,7 +1690,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     0,
     fillInTheBlankList.filter((item) => item.label.id == 12)[0].ans.length,
   ],
-  type: [0, 2],
+  type: [1, 2],
   status: 0,
 }, {
   id: 13,
@@ -1770,7 +1770,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     0,
     fillInTheBlankList.filter((item) => item.label.id == 17)[0].ans.length,
   ],
-  type: [0, 2],
+  type: [1, 2],
   status: 0,
 }, {
   id: 18,
@@ -1786,7 +1786,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     0,
     fillInTheBlankList.filter((item) => item.label.id == 18)[0].ans.length,
   ],
-  type: [0, 2],
+  type: [1, 2],
   status: 0,
 }, {
   id: 19,
@@ -1834,7 +1834,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     0,
     fillInTheBlankList.filter((item) => item.label.id == 21)[0].ans.length,
   ],
-  type: [0, 2],
+  type: [1, 2],
   status: 0,
 }, {
   id: 22,
@@ -1850,7 +1850,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     0,
     fillInTheBlankList.filter((item) => item.label.id == 22)[0].ans.length,
   ],
-  type: [0, 2],
+  type: [1, 2],
   status: 0,
 }, {
   id: 23,
@@ -1930,7 +1930,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     0,
     fillInTheBlankList.filter((item) => item.label.id == 27)[0].ans.length,
   ],
-  type: [0, 2],
+  type: [1, 2],
   status: 0,
 }, {
   id: 28,
@@ -1946,7 +1946,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     0,
     fillInTheBlankList.filter((item) => item.label.id == 28)[0].ans.length,
   ],
-  type: [0, 2],
+  type: [1, 2],
   status: 0,
 }, {
   id: 29,
@@ -2010,7 +2010,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     0,
     fillInTheBlankList.filter((item) => item.label.id == 32)[0].ans.length,
   ],
-  type: [0, 2],
+  type: [1, 2],
   status: 0,
 }, {
   id: 33,
@@ -2026,7 +2026,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     0,
     fillInTheBlankList.filter((item) => item.label.id == 33)[0].ans.length,
   ],
-  type: [0, 2],
+  type: [1, 2],
   status: 0,
 }, {
   id: 34,
@@ -2090,7 +2090,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     0,
     fillInTheBlankList.filter((item) => item.label.id == 37)[0].ans.length,
   ],
-  type: [0, 2],
+  type: [1, 2],
   status: 0,
 }, {
   id: 38,
@@ -2106,6 +2106,6 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
     0,
     fillInTheBlankList.filter((item) => item.label.id == 38)[0].ans.length,
   ],
-  type: [0, 2],
+  type: [1, 2],
   status: 0,
 }];

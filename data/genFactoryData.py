@@ -112,13 +112,22 @@ CHAPTER_TITLE = [
         "Một số hình khối trong thực tiễn"
     ]
 ]
+# 0: dai so
+# 1: hinh hoc
+CHAPTER_TYPE = [
+    [0, 0, 0, 1, 1, 0, 0, 1],
+    [0, 0, 1, 1, 0, 0, 0, 0, 1, 1],
+    [0, 0, 1, 1, 0, 0, 0, 0, 1, 1],
+    [0, 0, 0, 1, 1, 0, 0, 0, 1, 1]
+]
 
-def genLabel(id: int, grade: int, chapterTitle: str) -> None:
+def genLabel(id: int, class_id: int, chapter_id: int) -> None:
     des.write("label: {")
     
     des.write(f"id: {id},")
-    des.write(f"grade: {grade},")
-    des.write(f"chapterTitle: '{chapterTitle}',")
+    des.write(f"grade: {class_id + 6},")
+    des.write(f"type: [{CHAPTER_TYPE[class_id][chapter_id]}],")
+    des.write(f"chapterTitle: '{chapter_id + 1}',")
 
     des.write("},")
 
@@ -162,7 +171,7 @@ def genQuizDataList() -> None:
 
             id += 1
             # genLabel(id, class_id + 6, CHAPTER_TITLE[class_id][chapter_id])
-            genLabel(id, class_id + 6, f"Chương {chapter_id + 1}")
+            genLabel(id, class_id, chapter_id)
 
             des.write("data: {")
             genMultipleChoiceData("Multiple_Choice", class_id, chapter_id)
@@ -195,7 +204,7 @@ def genFillInTheBlankList() -> None:
 
             id += 1
             # genLabel(id, class_id + 6, CHAPTER_TITLE[class_id][chapter_id])
-            genLabel(id, class_id + 6, f"Chương {chapter_id + 1}")
+            genLabel(id, class_id, chapter_id)
             genFillInTheBlankData("Fill_in_the_blank", class_id, chapter_id)
             des.write("},")
 
@@ -222,7 +231,7 @@ def genChapterTitleList() -> None:
             des.write(f"fillInTheBlankID: {id},")
             des.write(f"quizStatus: [0, quizDataList.filter(item => item.label.id == {id})[0].data.rightAns.length],")
             des.write(f"fillInTheBlankStatus: [0, fillInTheBlankList.filter(item => item.label.id == {id})[0].ans.length],")
-            des.write(f"type: [0, 2],") # need to change by hand later
+            des.write(f"type: [{CHAPTER_TYPE[class_id][chapter_id]}, 2],") # scam 50k cua hminh muahahaha
             des.write("status: 0")
 
             des.write("},")
