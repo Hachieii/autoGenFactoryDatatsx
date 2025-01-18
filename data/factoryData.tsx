@@ -1150,7 +1150,7 @@ export const chapterTitleList: FORMATDATA.ChapterTitleFormat[] = [{
       require(`../assets/photos/Multiple_Choice/Lop_9/Chuong_7/ansD/2.png`),
       require(`../assets/photos/Multiple_Choice/Lop_9/Chuong_7/ansD/3.png`),
     ],
-    rightAns: [],
+    rightAns: ["B", "B", "A"],
   },
 }, {
   label: {
